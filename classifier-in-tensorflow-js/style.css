@@ -1,0 +1,49 @@
+body {
+  font-family: arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #ff6f00;
+}
+
+canvas {
+  display: block;
+  width: 28px;
+  height: 28px;
+  margin: 10px auto 5px auto;
+  zoom: 6;
+}
+
+p#prediction {
+  font-size: 20pt;
+  margin: 10px;
+  text-align: center;
+}
+
+p#prediction.correct {
+  border: 3px solid #00ff00;
+  color: #00ff00;
+  font-size: 100pt;
+}
+
+p#prediction.wrong {
+  border: 3px solid #ff0000;
+  color: #ff0000;
+  font-size: 100pt;
+}
+
+p {
+  margin: 5px;
+}
+
+.box {
+  width: 45%;
+  margin: 1%;
+  border: 1px dashed #cdcdcd;
+  display: inline-block;
+  min-height: 400px;
+  text-align: center;
+  float: left;
+}
