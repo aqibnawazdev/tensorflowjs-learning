@@ -1,5 +1,5 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   margin: 2em;
 }
 
@@ -14,6 +14,10 @@ canvas {
   height: 28px;
   margin: 10px auto 5px auto;
   zoom: 6;
+}
+
+p {
+  margin: 5px;
 }
 
 p#prediction {
@@ -34,16 +38,27 @@ p#prediction.wrong {
   font-size: 100pt;
 }
 
-p {
-  margin: 5px;
-}
-
 .box {
   width: 45%;
   margin: 1%;
   border: 1px dashed #cdcdcd;
-  display: inline-block;
+  /* display: inline-block; */
   min-height: 400px;
   text-align: center;
   float: left;
+}
+
+.blocky {
+  clear: both;
+  text-align: center;
+  font-size: 120%;
+  margin-top: 20px;
+}
+
+.slider {
+  width: 50%;
+  background: #d3d3d3;
+  outline: none;
+  margin: 0 auto;
+  display: block;
 }
