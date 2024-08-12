@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>tensorFlow.js MNIST classifier</title>
+    <meta charset="utf-8">
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css">
+  </head>  
+  <body>
+   <h1>tensorFlow.js MNIST classifier</h1>
+   <p>See console for evern more outputs.</p>
+
+   <section class="box">
+    <h2>Input Image</h2>
+    <p>Input image is a 28*28 pixels greyscale image form MNIST dataset - a real hand drawn digits!</p>
+    <canvas id="canvas" width="28" height="28"></canvas>
+   </section>
+   <section class="box">
+    <h2>Predictions</h2>
+    <p>Below you see what number the trained TensorFlow.js model has predicted from the input image.</p>
+    <p>Red is wrong prediction, Green is a correct one.</p>
+    <p id="predictins">
+      Training model. please wait...
+    </p>
+   </section>
+
+
+    <!-- Import TensorFlow.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js" type="text/javascript"></script>
+    <script type="molule" src="./script.js" ></script>
+  </body>
+</html>
